@@ -56,18 +56,18 @@ export default {
         var map = {0: 'Sunday', 1: 'Monday', 2: 'Tuesday', 3: 'Wednesday', 4: 'Thursday', 5: 'Friday', 6: 'Saturday'}
         return map[day]
       }
-      var getHourTime = hour => {
+      var getHourTime = (hour, minite) => {
         if (hour < 12) {
-          return hour + ' AM'
+          return hour + ':' + minite + ' AM'
         } else if (hour === 12) {
-          return hour + ' PM'
+          return hour + ':' + minite + ' PM'
         } else {
-          return (hour - 12) + ' PM'
+          return (hour - 12) + ':' + minite + ' PM'
         }
       }
       var date = new Date(dateStr)
       var weekDay = getWeek(date.getDay())
-      var hourTime = getHourTime(date.getHours())
+      var hourTime = getHourTime(date.getHours(), date.getMinutes())
       console.log(weekDay)
       console.log(hourTime)
       return weekDay + '  ' + hourTime
