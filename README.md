@@ -40,3 +40,9 @@ http://localhost:8089/#/weather
 need start the BE service first: 
 https://github.com/hyangdl/WeatherService
 
+
+## The published web site:
+
+http://81.70.79.188/weather
+
+
