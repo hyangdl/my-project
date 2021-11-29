@@ -37,12 +37,11 @@ http://5c92dbfae7b1a00014078e61.mockapi.io/owners
 visit page: 
 http://localhost:8089/#/weather
 
-need start the BE service first: 
+to get the weather data, you need start the BE service first: 
 https://github.com/hyangdl/WeatherService
 
 
 ## The published web site:
 
 http://81.70.79.188/weather
-
 

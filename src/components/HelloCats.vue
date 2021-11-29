@@ -1,5 +1,6 @@
 <template>
   <div class="hello">
+    <div><router-link to="/weather">To query realtime weather</router-link></div>
     <h2>{{ msg }}</h2>
     <h2>Male</h2>
     <ul>
